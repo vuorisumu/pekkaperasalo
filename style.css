@@ -25,6 +25,10 @@ article {
   margin: 20px;
 }
 
+article img {
+  width: 100%;
+}
+
 #sidebar {
   background-color: white;
   padding: 10px;
