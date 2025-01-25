@@ -2,21 +2,33 @@ html {
   background-color: blue;
 }
 
+h1 {
+  color: cyan;
+  text-shadow: -2px 2px black;
+}
+
 main {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 60% auto;
   gap: 20px;
   align-items: start;
 }
 
 article {
   background-color: white;
+  padding: 10px;
+  margin: 20px;
 }
 
 #sidebar {
   background-color: white;
+  padding: 10px;
 }
 
 .date {
   font-style: italic;
+}
+
+footer {
+  font-family: "Comic Sans MS";
 }
