@@ -5,6 +5,11 @@ html {
 h1 {
   color: cyan;
   text-shadow: -2px 2px black;
+  font-size: 34pt;
+}
+
+h3 {
+  text-decoration: underline;
 }
 
 main {
@@ -23,6 +28,14 @@ article {
 #sidebar {
   background-color: white;
   padding: 10px;
+}
+
+#sidebar h2 {
+  color: red;
+}
+
+#sidebar img {
+  width: 100%;
 }
 
 .date {
