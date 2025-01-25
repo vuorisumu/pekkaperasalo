@@ -1,3 +1,22 @@
 html {
   background-color: blue;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 20px;
+  align-items: start;
+}
+
+article {
+  background-color: white;
+}
+
+#sidebar {
+  background-color: white;
+}
+
+.date {
+  font-style: italic;
+}
